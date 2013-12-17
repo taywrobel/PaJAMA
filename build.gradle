@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'gitsemver'
 
 repositories {
     mavenCentral()
@@ -7,4 +8,13 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'com.palantir:gradle-gitsemver:0.1.2'
+  }
 }

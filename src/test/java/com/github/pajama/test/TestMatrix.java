@@ -13,12 +13,12 @@ import java.util.Locale;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.github.pajama.CholeskyDecomposition;
-import com.github.pajama.EigenvalueDecomposition;
-import com.github.pajama.LUDecomposition;
 import com.github.pajama.Matrix;
-import com.github.pajama.QRDecomposition;
-import com.github.pajama.SingularValueDecomposition;
+import com.github.pajama.operations.CholeskyDecomposition;
+import com.github.pajama.operations.EigenvalueDecomposition;
+import com.github.pajama.operations.LUDecomposition;
+import com.github.pajama.operations.QRDecomposition;
+import com.github.pajama.operations.SingularValueDecomposition;
 
 /** TestMatrix tests the functionality of the Jama Matrix class and associated decompositions.
 <P>
