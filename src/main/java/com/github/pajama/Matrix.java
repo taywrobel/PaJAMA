@@ -8,6 +8,11 @@ import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+import com.github.pajama.operations.CholeskyDecomposition;
+import com.github.pajama.operations.EigenvalueDecomposition;
+import com.github.pajama.operations.LUDecomposition;
+import com.github.pajama.operations.QRDecomposition;
+import com.github.pajama.operations.SingularValueDecomposition;
 import com.github.pajama.util.Maths;
 
 /**
