@@ -1,0 +1,6 @@
+language: java
+script: "./gradlew test"
+jdk:
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
